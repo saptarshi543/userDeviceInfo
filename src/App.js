@@ -62,7 +62,7 @@ console.log(finalOs);
 // console.log(navigator.language);
   return(
 <div>
-<p>Display</p>
+
 <p>OS: {finalOs}</p>
 <p id="demo"></p>
 <p id="he">Height: {height}</p>
@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <p>test</p>
+       
        <Display />
        <Gyro />
       </header>
